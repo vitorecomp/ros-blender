@@ -1,0 +1,9 @@
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/uninstall.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/cloudpoint2blendertopic_uninstall.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/test.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/edit_cache.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/rebuild_cache.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/list_install_components.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/install.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/install/local.dir
+/home/vitor/workspace/side-projects/ros-blender/cloudpoint2blendertopic/build/cloudpoint2blendertopic/CMakeFiles/install/strip.dir
