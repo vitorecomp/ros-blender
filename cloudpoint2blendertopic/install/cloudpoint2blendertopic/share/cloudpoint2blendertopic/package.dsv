@@ -1,8 +1,0 @@
-source;share/cloudpoint2blendertopic/hook/cmake_prefix_path.ps1
-source;share/cloudpoint2blendertopic/hook/cmake_prefix_path.dsv
-source;share/cloudpoint2blendertopic/hook/cmake_prefix_path.sh
-source;share/cloudpoint2blendertopic/local_setup.bash
-source;share/cloudpoint2blendertopic/local_setup.dsv
-source;share/cloudpoint2blendertopic/local_setup.ps1
-source;share/cloudpoint2blendertopic/local_setup.sh
-source;share/cloudpoint2blendertopic/local_setup.zsh

@@ -1,1 +1,47 @@
-build
+
+# Ignore build and development directories
+build/
+devel/
+install/
+
+# Ignore generated files
+*.log
+*.pot
+*.pyc
+
+# Ignore ROS build artifacts
+*.build/
+*.workspace/
+
+# Ignore ROS test results
+*.test_results/
+
+# Ignore generated documentation
+doc/
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore user-specific files
+*.swp
+*~
+*.bak
+
+# Ignore Catkin workspace specific files
+/.catkin_workspace
+
+# Ignore other ROS-specific files and directories
+*.rosinstall
+*.rospack
+*.rosinstall.*
+*.rospath
+*.rosdep
+*.rosclean
+*.rosserial
+*.rosproject
+*.swo
+*.stackdump
+
+# Ignore package-specific build directories
+*/CMakeLists.txt.user
