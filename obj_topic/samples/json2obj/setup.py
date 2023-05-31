@@ -23,10 +23,7 @@ setup(
     description="Simple JSON to Waveform(.obj) converter.",
     long_description=long_description,
     zip_safe=False,
-    install_requires=run_requirements,
-    extras_require={
-        "dev": requirements,
-    },
+    install_requires=requirements,
     python_requires=">=3.6",
     classifiers=[
         "Natural Language :: English",
@@ -34,7 +31,4 @@ setup(
         "Programming Language :: Python :: 3.6",
     ],
     keywords=(),
-    entry_points={
-        "console_scripts": ["json2obj = json2obj.__main__:start"],
-    },
 )

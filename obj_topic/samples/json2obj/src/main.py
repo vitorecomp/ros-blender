@@ -3,7 +3,7 @@ import sys
 import os
 import cv2
 
-from converters.json_converter import tranformJson2Obj
+from converters.json_converter import transformJson2Obj
 
 
 def start(file, fileName):
@@ -16,7 +16,7 @@ def start(file, fileName):
     jsonContent = json.loads(fileContent)
 
     #convert to obj
-    objContent, mtlContent, textureImage = tranformJson2Obj(jsonContent)
+    objContent, mtlContent, textureImages = transformJson2Obj(fileName, jsonContent)
 
     #write the obj file
     objFile = open("../output/" + fileName + ".obj", "w")
@@ -29,8 +29,9 @@ def start(file, fileName):
     mtlFile.close()
 
     #write the texture file
-    imageName = "../output/" + fileName + ".png"
-    cv2.imwrite(imageName, textureImage)
+    for i in range(len(textureImages)):
+        imageName = "../output/" + textureImages[i][0] + str()+ ".png"
+        cv2.imwrite(imageName, textureImages[i][1])
     
 
 

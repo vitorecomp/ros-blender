@@ -1,33 +1,46 @@
 [
     {
         "type": "point",
-        "vertices": [],
         "position": [1, 0, 0],
         "texture": {
             "color": {
-                "r": 255,
+                "r": 0,
                 "g": 255,
-                "b": 255
+                "b": 0
             },
-            "emissive": 0,
-            "reflection": 0,
+            "matted": true,
+            "reflection": 1,
             "alpha": 1
         },
-        "size": 1   
+        "size": 1  
     },
     {
         "type": "point",
-        "vertices": [],
-        "position": [2, 0, 0],
+        "position": [10, 0, 0],
         "texture": {
             "color": {
                 "r": 255,
                 "g": 255,
                 "b": 255
             },
-            "emissive": 0,
-            "reflection": 0,
+            "matted": false,
+            "reflection": 1,
             "alpha": 1
+        },
+        "size": 5  
+    },
+    {
+        "type": "point",
+        "position": [20, 0, 0],
+        "texture": {
+            "color": {
+                "r": 255,
+                "g": 0,
+                "b": 255
+            },
+            "matted": false,
+            "reflection": 0,
+            "alpha": 0.2
         },
         "size": 1   
     }
