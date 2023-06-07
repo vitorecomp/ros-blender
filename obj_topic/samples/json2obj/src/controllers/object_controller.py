@@ -76,11 +76,30 @@ def _generateObject(index, objDescription, definedVertices):
 
     return content, definedVertices + _definedVertices
 
+def _generateCloudObject(index, objDescription, definedVertices):
+    _definedVertices = 0
+    content = "#object " + str(index) + "\n"
+    content += "\n"
+
+    content += "usemtl material_" + str(index) + "\n"
+
+    content += "#vetices\n"
+
+    for point in objDescription["points"]:
+        content += vertexFromPoint(point[0], point[1], point[2])
+
+    content += "\n"
+
+    return content, definedVertices + _definedVertices
+
 POINT_TYPE = "point"
 OBJECT_TYPE = "3d-object"
+POINT_CLOUD_TYPE = "3d-points"
 
 def generateObj(index, objDescription, definedVertices):
     if(objDescription["type"] == POINT_TYPE):
         return _generatePoint(index, objDescription, definedVertices)
     if(objDescription["type"] == OBJECT_TYPE):
         return _generateObject(index, objDescription, definedVertices)
+    if(objDescription["type"] == POINT_CLOUD_TYPE):
+        return _generateCloudObject(index, objDescription, definedVertices)
